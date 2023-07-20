@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TH3</title>
+</head>
+<body>
+    <script>
+        let userName = prompt('Who is there? ');
+        if (userName == 'admin') {
+            let password = prompt('chao anh admin yeu cau a nhap password');
+            if (password == 'huydz') {
+                alert('welcome')
+            }else if (password == null){
+                alert('cancelled')
+            }else{
+                alert('wrong password')
+            }
+        }else if (userName == null){
+            alert('cancelled')
+        }else{
+            alert('may la ai')
+        }
+    </script>
+</body>
+</html>
